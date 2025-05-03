@@ -1,0 +1,61 @@
+/* App.scss */
+
+/* 1. Reset global */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Styles de base */
+body {
+  font-family: 'Work Sans' ;
+  background-color: #f5f5f7;
+  color: #333333;
+  line-height: 1.6;
+}
+
+/* 3. Entête (header) */
+header {
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 4. Contenu principal */
+main {
+  padding: 2rem;
+}
+
+/* Conteneur des cartes projets */
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+/* 5. Pied de page (footer) */
+footer {
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+/* 6. Styles responsives */
+@media (max-width: 768px) {
+  header, footer {
+    padding: 1rem;
+  }
+  main {
+    padding: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .projects-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
