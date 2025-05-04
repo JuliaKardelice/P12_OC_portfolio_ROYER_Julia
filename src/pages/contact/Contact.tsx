@@ -29,41 +29,43 @@ export const Contact: React.FC = () => {
   };
 
   return (
-    <section id="contact">
-      <h2>Contact</h2>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="name">Nom</label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          value={formData.name}
-          onChange={handleChange}
-          required
-        />
+    <main>
+      <section id="contact">
+        <h2>Contact</h2>
+        <form onSubmit={handleSubmit}>
+          <label htmlFor="name">Nom</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+            required
+          />
 
-        <label htmlFor="email">Email</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          value={formData.email}
-          onChange={handleChange}
-          required
-        />
+          <label htmlFor="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            required
+          />
 
-        <label htmlFor="message">Message</label>
-        <textarea
-          id="message"
-          name="message"
-          rows={10}
-          value={formData.message}
-          onChange={handleChange}
-          required
-        ></textarea>
+          <label htmlFor="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows={10}
+            value={formData.message}
+            onChange={handleChange}
+            required
+          ></textarea>
 
-        <button type="submit">Envoyer</button>
-      </form>
-    </section>
+          <button type="submit">Envoyer</button>
+        </form>
+      </section>
+    </main>
   );
 };

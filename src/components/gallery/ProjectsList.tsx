@@ -15,7 +15,7 @@ interface Project {
 
 const ProjectsList: React.FC = () => {
   return (
-    <div className="projects-">
+    <div id="projects" className="projects-">
       <h2> Mes projets </h2>
       <section className="projects-container">
         {projectsData.map((project: Project) => (
@@ -48,6 +48,17 @@ const ProjectsList: React.FC = () => {
                   rel="noopener noreferrer"
                 >
                   Voir sur GitHub
+                </a>
+              )}
+              {/* Lien GitHub */}
+              {project.website && (
+                <a
+                  href={project.website}
+                  className="project-card__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Voir sur en Ligne
                 </a>
               )}
             </div>

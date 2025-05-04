@@ -19,10 +19,10 @@ export const SkillsSection: React.FC = () => {
             <strong>GitHub</strong> – Versionnage en toute sérénité
           </li>
           <li>
-            <strong>SEO</strong> – Pour que Google t’aime
+            <strong>SEO</strong> – Accessibilté
           </li>
           <li>
-            <strong>Anglais technique</strong> – Lu, parlé, débogué
+            <strong>Anglais technique</strong> – Lu, parlé
           </li>
         </ul>
       </section>

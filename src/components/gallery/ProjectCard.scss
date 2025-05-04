@@ -1,4 +1,7 @@
 /* ProjectCard.scss */
+#projects h2 {
+  text-align: center;
+}
 
 /* Conteneur de la carte projet */
 .projects-container {
@@ -11,6 +14,8 @@
 
 }
 
+
+
 .project-card {
   background-color: #ffffff;
   border-radius: 10px;
@@ -22,7 +27,7 @@
   /* Pour l’effet smooth */
 
   &:hover {
-    transform: scale(1.03);
+    transform: scale(1.05);
     /* Légère croissance */
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
     /* Ombre plus intense */

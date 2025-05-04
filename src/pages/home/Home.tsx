@@ -1,8 +1,8 @@
 import React from "react";
 
 import { ProfileSection } from "../../components/aboutSection/ProfileSection";
+import ProjectsList from "../../components/gallery/ProjectsList";
 import { SkillsSection } from "../../components/skills/SkillsSection";
-import ProjectsList from "../gallery/ProjectsList";
 
 export const Home: React.FC = () => {
   return (
