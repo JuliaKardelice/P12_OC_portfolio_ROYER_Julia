@@ -55,7 +55,7 @@ export const ProfileSection: React.FC = () => {
             <li>🧬 Technologies biomédicales : allier code et soin</li>
             <li>🎭 Plateformes culturelles : rendre l’art interactif</li>
             <li>🔍 Intelligence artificielle : créer des outils qui pensent</li>
-            <li>🔐 Cybersécurité : casser pour mieux protéger</li>
+            <li>🔐 Cybersécurité : Mieux protéger</li>
           </ul>
         </section>
       </div>
