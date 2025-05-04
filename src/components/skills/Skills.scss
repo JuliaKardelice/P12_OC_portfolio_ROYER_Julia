@@ -1,0 +1,48 @@
+#strengths,
+#goals,
+#skills {
+    margin-bottom: 3rem;
+
+    h2 {
+        text-align: center;
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+        color: #222;
+        border-top: 4px solid #0a2f47;
+        padding-left: 0.5rem;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 0;
+
+        li {
+            margin-bottom: 0.75rem;
+            font-size: 1rem;
+            background-color: #ffffff;
+            padding: 0.75rem 1rem;
+            border-left: 4px solid #0a2f47;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            border-radius: 4px;
+        }
+    }
+}
+
+#skills ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+
+    li {
+        background-color: #0a2f47;
+        color: white;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        padding: 0.4rem 0.75rem;
+        border-radius: 15px;
+        font-size: 0.9rem;
+        border: none;
+        font-weight: 500;
+        white-space: nowrap;
+    }
+}

@@ -6,7 +6,7 @@
       "image": "/assets/images/ridding-cities.png",
       "skill" : ["Gérer l'organisation de son travail via les méthodes de travail agiles","","",""],
       "technologies": ["HTML", "CSS"],
-      "live": "https://booki-site.vercel.app/",
+      "website": "",
       "githubLink":" https://github.com/JuliaKardelice/Ridding-Cities.git"
     },
     {
@@ -16,7 +16,7 @@
       "image": "/assets/images/booki.png",
       "skill" : ["Gérer l'organisation de son travail via les méthodes de travail agiles","","",""],
       "technologies": ["Javascript"],
-      "live": "https://sophie-bluel-js.vercel.app/",
+      "website": "",
       "githubLink":  "https://github.com/JuliaKardelice/SOUTENANCE-BOOKI.git"
     },
     {
@@ -26,7 +26,7 @@
       "image": "/assets/images/ohmyfood.png",
       "skill" : ["Gérer l'organisation de son travail via les méthodes de travail agiles","","",""],
       "technologies": ["SEO", "Accessibilité"],
-      "live": "https://nina-carducci-debogage.vercel.app/",
+      "website": "https://juliakardelice.github.io/Ohmyfood/",
       "githubLink":  "https://github.com/JuliaKardelice/Ohmyfood.git"
     },
     {
@@ -36,17 +36,18 @@
       "image": "/assets/images/print_it.png",
       "skill" : ["Gérer l'organisation de son travail via les méthodes de travail agiles","","",""],
       "technologies": ["HTML","Javascript"],
-      "live": "https://react-app-kasa.vercel.app/",
+      "website": "https://juliakardelice.github.io/Projet-5-Print-it/s",
       "githubLink":  "https://github.com/JuliaKardelice/Ohmyfood.git"
     },
     {
       "id": 5,
       "title": "Sophie Bluel Portfolio",
       "description": "Création du backend d'un site de notation de livres et gestion de la base de données",
-      "image":"/assets/images/ridding-cities.png",
+      "image":"/assets/images/sophie_bluel.png",
       "skill" : ["Gérer l'organisation de son travail via les méthodes de travail agiles","","",""],
       "technologies": ["Node", "Javascript", "APIrest"],
-      "githubLink": "git@github.com:JuliaKardelice/Projet_6_openclassroom.git"
+      "website": "",
+      "githubLink": "https://github.com/JuliaKardelice/Projet_6_openclassroom"
     },
     {
         "id": 6,
@@ -55,7 +56,8 @@
         "image": "/images/mon_vieux_grimoire.png",
         "skill" : ["SEO", "Accessibilité"],
         "technologies": ["Lighthouse", "Wave","Debugger"],
-        "githubLink":  "https://github.com/JuliaKardelice/Op_debug.git"
+        "website": "",
+        "githubLink":  "https://github.com/JuliaKardelice/Projet-8-Op--Nina-carducci"
       },
       {
         "id": 7,
@@ -63,7 +65,8 @@
         "description": "Debbuger le site d'une agence événementielle",
         "image": "/assets/images/724events.png",
         "skill" : ["Gérer l'organisation de son travail via les méthodes de travail agiles","","",""],
-        "technologies": ["React Dev Tools","YARN","Lighthouse", "Wave","Debugger"],
+        "technologies": ["React Dev Tools", "Lighthouse", "Wave"],
+        "website": "",
         "githubLink": "https://github.com/JuliaKardelice/Op_debug.git"
       },
       {
@@ -72,6 +75,7 @@
         "description": "Création du backend d'un site de notation de livres et gestion de la base de données",
         "image": "/assets/images/argent-bank.png",
         "technologies": ["React","Redux","Axios","Node", "Express", "MongoDB","Swagger"],
+        "website": "",
         "githubLink": "https://github.com/JuliaKardelice/P10-argent-bank"
       },
       {
@@ -81,6 +85,7 @@
         "image": "/assets/images/ridding-cities.png",
         "skill" : ["Gérer l'organisation de son travail via les méthodes de travail agiles","","",""],
         "technologies": ["Kanban", "Feedly"],
+        "website": "",
         "githubLink": ""
       }
   ]

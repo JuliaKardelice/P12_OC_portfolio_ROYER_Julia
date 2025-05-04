@@ -1,34 +1,40 @@
 header {
-    margin: 0;
-    margin-bottom: 15px;
-    padding: 0;
 
-    height: 13vh;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 0;
+  padding-left: 15px;
+  height: 13vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  img {
+    height: 60%;
+  }
+
+  nav {
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: right;
+    justify-content: space-between;
+    gap: 57px;
 
-    img {
-      height: 60%;
+    a {
+      text-decoration: none;
+      color: black;
+      font-size: 1.5rem;
+      font-weight: 500;
     }
 
-    nav {
-      display: flex;
-      align-items: center;
-      flex-direction: row;
-      justify-content: space-between;
-      gap: 57px;
-
-      a {
-        text-decoration: none;
-        color: black;
-        font-size: 1.5rem;
-        font-weight: 500;
-      }
-
-      .active-link {
-        text-decoration: underline;
-      }
+    .active-link {
+      text-decoration: underline;
     }
   }
+}

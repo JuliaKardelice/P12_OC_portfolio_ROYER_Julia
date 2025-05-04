@@ -1,10 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "./Header.scss"
+import "./Header.scss";
 
 export const Header: React.FC = () => {
   return (
     <header>
+      <h1> Portfolio de Julia Royer </h1>
       <nav>
         <NavLink
           to="/"
@@ -12,12 +13,7 @@ export const Header: React.FC = () => {
         >
           Accueil
         </NavLink>
-        <NavLink
-          to="/about"
-          className={({ isActive }) => (isActive ? "active-link" : "")}
-        >
-          Contact
-        </NavLink>{" "}
+
         <NavLink
           to="/contact"
           className={({ isActive }) => (isActive ? "active-link" : "")}

@@ -1,20 +1,15 @@
 import React from "react";
-import { AboutSection } from "../../components/aboutSection/aboutSection";
+
+import { ProfileSection } from "../../components/aboutSection/ProfileSection";
+import { SkillsSection } from "../../components/skills/SkillsSection";
 import ProjectsList from "../gallery/ProjectsList";
 
-
-export const Home:React.FC = () => {
-
-
-return (
-<>
-<AboutSection/>
-<ProjectsList/>
-
-</>
-
-
-)
-
-
-}
+export const Home: React.FC = () => {
+  return (
+    <>
+      <ProfileSection />
+      <SkillsSection />
+      <ProjectsList />
+    </>
+  );
+};
