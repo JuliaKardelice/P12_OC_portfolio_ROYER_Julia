@@ -53,6 +53,15 @@ footer {
 
 /* 6. Styles responsives */
 @media (max-width: 768px) {
+  * {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    object-fit: contain;
+    box-sizing: border-box;
+
+  }
 
   header,
   footer {
@@ -64,9 +73,18 @@ footer {
   }
 }
 
+p {
+  text-align: center;
+  width: 30%;
+  font-size: 12px;
+}
+
 @media (max-width: 480px) {
+  
   .projects-container {
     grid-template-columns: 1fr;
     gap: 1rem;
+    
   }
+
 }
