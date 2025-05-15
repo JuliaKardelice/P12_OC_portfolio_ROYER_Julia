@@ -1,91 +1,93 @@
+
 [
-    {
-      "id": 1,
-      "title": "Riding Cities",
-      "description": "Réalisation d’un site de voyage.",
-      "image": "/assets/images/ridding-cities.png",
-      "skill" : ["Gérer l'organisation de son travail via les méthodes de travail agiles","","",""],
-      "technologies": ["HTML", "CSS"],
-      "website": "",
-      "githubLink":" https://github.com/JuliaKardelice/Ridding-Cities.git"
-    },
-    {
-      "id": 2,
-      "title": "Booki",
-      "description": "Création d'une page d'accueil web pour une agence de voyage'",
-      "image": "/assets/images/booki.png",
-      "skill" : ["Gérer l'organisation de son travail via les méthodes de travail agiles","","",""],
-      "technologies": ["Javascript"],
-      "website": "https://juliakardelice.github.io/P3_OC_BOOKI_ROYER_Julia/",
-      "githubLink":  "https://github.com/JuliaKardelice/P3_OC_BOOKI_ROYER_Julia"
-    },
-    {
-      "id": 3,
-      "title": "Ohmyfood",
-      "description": " Développer l'interface mobile-first du site d’une start-up de restauration",
-      "image": "/assets/images/ohmyfood.png",
-      "skill" : ["Gérer l'organisation de son travail via les méthodes de travail agiles","","",""],
-      "technologies": ["CSS", "SASS"],
-      "website": "https://juliakardelice.github.io/Ohmyfood/",
-      "githubLink":  "https://github.com/JuliaKardelice/Ohmyfood.git"
-    },
-    {
-      "id": 4,
-      "title": "Print-It",
-      "description": "Dynamiser la page web d'une entreprise d'impression",
-      "image": "/assets/images/print_it.png",
-      "skill" : [""],
-      "technologies": ["HTML","Javascript"],
-      "website": "https://juliakardelice.github.io/Projet-5-Print-it/s",
-      "githubLink":  "https://github.com/JuliaKardelice/Ohmyfood.git"
-    },
-    {
-      "id": 5,
-      "title": "Sophie Bluel Portfolio",
-      "description": "Création du backend d'un site de notation de livres et gestion de la base de données",
-      "image":"/assets/images/sophie_bluel.png",
-      "skill" : ["Gérer l'organisation de son travail via les méthodes de travail agiles","","",""],
-      "technologies": ["Node", "Javascript", "APIrest"],
-      "website": "",
-      "githubLink": "https://github.com/JuliaKardelice/Projet_6_openclassroom"
-    },
-    {
-        "id": 6,
-        "title": "Portfolio de Nina Carducci",
-        "description": "Augmenter l'accessibilité et les performances d'un site de photographie",
-        "image": "/assets/images/nina_carducci.png",
-        "skill" : ["SEO", "Accessibilité"],
-        "technologies": ["Lighthouse", "Wave","Debugger"],
-        "website": "https://juliakardelice.github.io/Projet-8-Op--Nina-carducci/",
-        "githubLink":  "https://github.com/JuliaKardelice/Projet-8-Op--Nina-carducci"
-      },
-      {
-        "id": 7,
-        "title": "724events",
-        "description": "Debbuger le site d'une agence événementielle",
-        "image": "/assets/images/724events.png",
-        "skill" : ["Gérer l'organisation de son travail via les méthodes de travail agiles","","",""],
-        "technologies": ["React Dev Tools", "Lighthouse", "Wave"],
-        "website": "",
-        "githubLink": "https://github.com/JuliaKardelice/Op_debug.git"
-      },
-      {
-        "id": 8,
-        "title": "Argent Bank",
-        "description": "Création d'une application web bancaire en utilisant REACT/REDUX",
-        "image": "/assets/images/argent-bank.png",
-        "technologies": ["React","Redux","Axios","Node", "Express", "MongoDB","Swagger"],
-        "website": "",
-        "githubLink": "https://github.com/JuliaKardelice/P10-argent-bank"
-      },
-      {
-        "id": 9,
-        "title": "Menu Maker by Qwenta",
-        "description": "Planifiez le développement du site en se familarisant avec les methodes de travail agiles",
-        "image": "/assets/images/ridding-cities.png",
-        "skill" : ["Gérer l'organisation de son travail via les méthodes de travail agiles","","",""],
-        "technologies": ["Kanban", "Feedly"],
-        "website": "",
-        "githubLink": ""
-      }
-  ]
+{
+"id": 1,
+"title": "Riding Cities",
+"description": "Réalisation d’un site de voyage.",
+"image": "/assets/images/ridding-cities.png",
+"skill" : ["Organiser correctement sa page web selon les bonnes pratiques html","","",""],
+"technologies": ["HTML", "CSS"],
+"website": "",
+"githubLink":" https://github.com/JuliaKardelice/Ridding-Cities.git"
+},
+{
+"id": 2,
+"title": "Booki",
+"description": "Création d'une page d'accueil web pour une agence de voyage'",
+"image": "/assets/images/booki.png",
+"skill" : ["Concevoir un l'architecture d'un site à partir d' une maquette figma"," Mettre en place le stye de son site via le langage CSS","endre son site web responsive",""],
+"technologies": ["Javascript"],
+"website": "https://juliakardelice.github.io/P3_OC_BOOKI_ROYER_Julia/",
+"githubLink": "https://github.com/JuliaKardelice/P3_OC_BOOKI_ROYER_Julia"
+},
+{
+"id": 3,
+"title": "Ohmyfood",
+"description": " Développer l'interface mobile-first du site d’une start-up de restauration",
+"image": "/assets/images/ohmyfood.png",
+"skill" : ["Concevoir une application multipages","Utilisation de SASS pour le style de son application","Créer des animations, des effets de transitions pour améliorer l'expérience utilisateur"],
+"technologies": ["CSS", "SASS"],
+"website": "https://juliakardelice.github.io/Ohmyfood/",
+"githubLink": "https://github.com/JuliaKardelice/Ohmyfood.git"
+},
+{
+"id": 4,
+"title": "Print-It",
+"description": "Dynamiser la page web d'une entreprise d'impression",
+"image": "/assets/images/print_it.png",
+"skill" : ["Utiliser javascript pour avoir des fonctionnalités plus complexes sur son site"],
+"technologies": ["HTML","Javascript"],
+"website": "https://juliakardelice.github.io/Projet-5-Print-it/s",
+"githubLink": "https://github.com/JuliaKardelice/Ohmyfood.git"
+},
+{
+"id": 5,
+"title": "Sophie Bluel Portfolio",
+"description": "Création du backend d'un site de notation de livres et gestion de la base de données",
+"image":"/assets/images/sophie_bluel.png",
+"skill" : ["Concevoir une application en intégrant des fonctionnalités plus complexes avec Javascript","Mettre en place un système de connexion d'utilisateur pour son site Web","Intégrer le backend de son site web ",
+"Utiliser les APIrestfull pour effectuer des requètes serveur","Mettre en place des fonctionnalités d'ajout et de gestion de contenus (ajout de projet, upload d'images)"],
+"technologies": ["Node", "Javascript", "APIrest"],
+"website": "",
+"githubLink": "https://github.com/JuliaKardelice/Projet_6_openclassroom"
+},
+{
+"id": 6,
+"title": "Portfolio de Nina Carducci",
+"description": "Augmenter l'accessibilité et les performances d'un site de photographie",
+"image": "/assets/images/nina_carducci.png",
+"skill" : ["SEO", "Accessibilité"],
+"technologies": ["Lighthouse", "Wave","Debugger"],
+"website": "https://juliakardelice.github.io/Projet-8-Op--Nina-carducci/",
+"githubLink": "https://github.com/JuliaKardelice/Projet-8-Op--Nina-carducci"
+},
+{
+"id": 7,
+"title": "724events",
+"description": "Debbuger le site d'une agence événementielle",
+"image": "/assets/images/724events.png",
+"skill" : ["Gérer l'organisation de son travail via les méthodes de travail agiles","","",""],
+"technologies": ["React Dev Tools", "Lighthouse", "Wave"],
+"website": "",
+"githubLink": "https://github.com/JuliaKardelice/Op_debug.git"
+},
+{
+"id": 8,
+"title": "Argent Bank",
+"description": "Création d'une application web bancaire en utilisant REACT/REDUX",
+"image": "/assets/images/argent-bank.png",
+"technologies": ["React","Redux","Axios","Node", "Express", "MongoDB","Swagger"],
+"website": "",
+"githubLink": "https://github.com/JuliaKardelice/P10-argent-bank"
+},
+{
+"id": 9,
+"title": "Menu Maker by Qwenta",
+"description": "Planifiez le développement du site en se familarisant avec les methodes de travail agiles",
+"image": "/assets/images/ridding-cities.png",
+"skill" : ["Gérer l'organisation de son travail via les méthodes de travail agiles","","",""],
+"technologies": ["Kanban", "Feedly"],
+"website": "",
+"githubLink": ""
+}
+]
