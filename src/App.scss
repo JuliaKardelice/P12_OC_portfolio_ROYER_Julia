@@ -53,38 +53,40 @@ footer {
 
 /* 6. Styles responsives */
 @media (max-width: 768px) {
-  * {
+
+  .some-container,
+  .project-card__content,
+  header,
+  footer,
+  main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
+  }
+
+  /* Garde object-fit uniquement sur images */
+  img {
     object-fit: contain;
+  }
+
+  * {
     box-sizing: border-box;
-
-  }
-
-  header,
-  footer {
-    padding: 1rem;
-  }
-
-  main {
-    padding: 1rem;
   }
 }
 
-p {
+.intro p {
   text-align: center;
   width: 30%;
   font-size: 12px;
 }
 
 @media (max-width: 480px) {
-  
+
   .projects-container {
     grid-template-columns: 1fr;
     gap: 1rem;
-    
+
   }
 
 }
