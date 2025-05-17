@@ -109,10 +109,11 @@ footer p {
 
   }
 
+
   .intro p {
     text-align: start;
-    width: 30%;
-    font-size: 12px;
+    width: 100%; // ou auto
+    font-size: 14px; // un peu plus lisible ?
   }
 
 }

@@ -7,7 +7,7 @@
 "image": "/assets/images/ridding-cities.png",
 "skill" : ["Organiser correctement sa page web selon les bonnes pratiques html","","",""],
 "technologies": ["HTML", "CSS"],
-"website": "",
+"website": "https://juliakardelice.github.io/Ridding-Cities/",
 "githubLink":" https://github.com/JuliaKardelice/Ridding-Cities.git",
 "plot" : "Riding Cities, association de skate, souhaite acgtualiser la page de son site en créant une nouvelle section sur leurs membres fondateurs et proposants deux plannings à télécharger. Ce projet était une première initiation qui nécessitait de développer du code html à partir d'un fichier déjà existant et un fichier de style CSS déjà en place"
 

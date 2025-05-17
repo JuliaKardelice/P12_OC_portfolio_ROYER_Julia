@@ -28,7 +28,7 @@ const ProjectsList: React.FC = () => {
   };
 
   return (
-    <div id="projects" className="projects-">
+    <div id="projects">
       <h2>Mes projets</h2>
       <section className="projects-container">
         {projectsData.map((project: Project) => (
