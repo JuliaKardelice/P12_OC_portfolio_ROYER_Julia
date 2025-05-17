@@ -55,10 +55,13 @@ footer {
   text-align: center;
   font-size: 0.9rem;
   margin-top: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 footer p {
-  text-align: center;
+
+  align-self: center;
 }
 
 /* 6. Styles responsives */

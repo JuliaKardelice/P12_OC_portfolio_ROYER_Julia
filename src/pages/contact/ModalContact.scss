@@ -12,7 +12,11 @@
 }
 
 .modal-content {
+    all: unset; // ← Petit joker pour écraser les mauvaises surprises
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    align-self: center;
     background: white;
     padding: 2rem;
     border-radius: 10px;
