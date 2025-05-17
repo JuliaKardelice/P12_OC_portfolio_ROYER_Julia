@@ -17,7 +17,7 @@
 "title": "Booki",
 "description": "Création d'une page d'accueil web pour une agence de voyage'",
 "image": "/assets/images/booki.png",
-"skill" : ["Concevoir un l'architecture d'un site à partir d' une maquette figma"," Mettre en place le stye de son site via le langage CSS","endre son site web responsive",""],
+"skill" : ["Concevoir un l'architecture d'un site à partir d' une maquette figma"," Mettre en place le stye de son site via le langage CSS","endre son site web responsive"],
 "technologies": ["Javascript"],
 "website": "https://juliakardelice.github.io/P3_OC_BOOKI_ROYER_Julia/",
 "githubLink": "https://github.com/JuliaKardelice/P3_OC_BOOKI_ROYER_Julia",
@@ -56,7 +56,7 @@
 "technologies": ["Node", "Javascript", "APIrest"],
 "website": "",
 "githubLink": "https://github.com/JuliaKardelice/Projet_6_openclassroom",
-"plot" : "Riding Cities, association de skate, souhaite acgtualiser la page de son site en créant une nouvelle section sur leurs membres fondateurs et proposants deux plannings à télécharger. Ce projet était une première initiation qui nécessitait de développer du code html à partir d'un fichier déjà existant et un fichier de style CSS déjà en place"
+"plot" : "Le but ici est de concevoir un site Portfolio où l'utilisateur peux se connecter, on apprends ici à intéragir avec un back-end, et à faire des requète API. Le site comprends un système ou l'utilisateur peut uploader du contenu sur son compte"
 
 },
 {
@@ -76,11 +76,11 @@
 "title": "724events",
 "description": "Debbuger le site d'une agence événementielle",
 "image": "/assets/images/724events.png",
-"skill" : ["Gérer l'organisation de son travail via les méthodes de travail agiles","","",""],
+"skill" : ["S'assurer du bon fonctionnement du site en corrigeant les erreurs","utiliser les test unitaires et d'intégration","Utiliser Wave ou le debugger"],
 "technologies": ["React Dev Tools", "Lighthouse", "Wave"],
 "website": "",
 "githubLink": "https://github.com/JuliaKardelice/Op_debug.git",
-"plot" : "Riding Cities, association de skate, souhaite acgtualiser la page de son site en créant une nouvelle section sur leurs membres fondateurs et proposants deux plannings à télécharger. Ce projet était une première initiation qui nécessitait de développer du code html à partir d'un fichier déjà existant et un fichier de style CSS déjà en place"
+"plot" : "724events est un site d'agence évennementielle, cependant le site comporte quelques bug. Le but de se projet est de résoudre ces bugs en utilisant notamment des tests unitaires."
 
 },
 {
@@ -99,7 +99,7 @@
 "title": "Menu Maker by Qwenta",
 "description": "Planifiez le développement du site en se familarisant avec les methodes de travail agiles",
 "image": "/assets/images/ridding-cities.png",
-"skill" : ["Gérer l'organisation de son travail via les méthodes de travail agiles","","",""],
+"skill" : ["Gérer l'organisation de son travail via les méthodes de travail agiles","Mettre en place un système de veille","Utiliser un Kanban avec des Users Stories"],
 "technologies": ["Kanban", "Feedly"],
 "website": "",
 "githubLink": "",
