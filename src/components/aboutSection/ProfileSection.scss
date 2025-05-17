@@ -33,6 +33,7 @@
             h1 {
                 font-size: 2rem;
                 margin-bottom: 1rem;
+                text-align: center;
             }
 
             p {
@@ -44,6 +45,12 @@
                 padding-left: 1rem;
             }
         }
+    }
+
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
     }
 
     .profile-sections {

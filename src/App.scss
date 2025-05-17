@@ -34,6 +34,12 @@ a {
   text-decoration: none;
 }
 
+.intro p {
+  text-align: center;
+  width: 30%;
+  font-size: 12px;
+}
+
 /* Conteneur des cartes projets */
 .projects-container {
   display: grid;
@@ -51,6 +57,10 @@ footer {
   margin-top: 2rem;
 }
 
+footer p {
+  text-align: center;
+}
+
 /* 6. Styles responsives */
 @media (max-width: 768px) {
 
@@ -65,9 +75,20 @@ footer {
     align-items: stretch;
   }
 
+  h1 {
+
+    text-align: center;
+  }
+
   /* Garde object-fit uniquement sur images */
   img {
     object-fit: contain;
+  }
+
+  .intro p {
+    text-align: start;
+    width: 30%;
+    font-size: 12px;
   }
 
   * {
@@ -75,11 +96,7 @@ footer {
   }
 }
 
-.intro p {
-  text-align: center;
-  width: 30%;
-  font-size: 12px;
-}
+
 
 @media (max-width: 480px) {
 
@@ -87,6 +104,12 @@ footer {
     grid-template-columns: 1fr;
     gap: 1rem;
 
+  }
+
+  .intro p {
+    text-align: start;
+    width: 30%;
+    font-size: 12px;
   }
 
 }

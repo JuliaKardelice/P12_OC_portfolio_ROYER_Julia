@@ -8,7 +8,9 @@
 "skill" : ["Organiser correctement sa page web selon les bonnes pratiques html","","",""],
 "technologies": ["HTML", "CSS"],
 "website": "",
-"githubLink":" https://github.com/JuliaKardelice/Ridding-Cities.git"
+"githubLink":" https://github.com/JuliaKardelice/Ridding-Cities.git",
+"plot" : "Riding Cities, association de skate, souhaite acgtualiser la page de son site en créant une nouvelle section sur leurs membres fondateurs et proposants deux plannings à télécharger. Ce projet était une première initiation qui nécessitait de développer du code html à partir d'un fichier déjà existant et un fichier de style CSS déjà en place"
+
 },
 {
 "id": 2,
@@ -18,8 +20,8 @@
 "skill" : ["Concevoir un l'architecture d'un site à partir d' une maquette figma"," Mettre en place le stye de son site via le langage CSS","endre son site web responsive",""],
 "technologies": ["Javascript"],
 "website": "https://juliakardelice.github.io/P3_OC_BOOKI_ROYER_Julia/",
-"githubLink": "https://github.com/JuliaKardelice/P3_OC_BOOKI_ROYER_Julia"
-},
+"githubLink": "https://github.com/JuliaKardelice/P3_OC_BOOKI_ROYER_Julia",
+"plot" : "L'entreprise Booki souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Le but de se projet est de se familiariser avec le language CSS, base fondamentale pour un développeur font-end"},
 {
 "id": 3,
 "title": "Ohmyfood",
@@ -28,7 +30,9 @@
 "skill" : ["Concevoir une application multipages","Utilisation de SASS pour le style de son application","Créer des animations, des effets de transitions pour améliorer l'expérience utilisateur"],
 "technologies": ["CSS", "SASS"],
 "website": "https://juliakardelice.github.io/Ohmyfood/",
-"githubLink": "https://github.com/JuliaKardelice/Ohmyfood.git"
+"githubLink": "https://github.com/JuliaKardelice/Ohmyfood.git",
+"plot" : "Riding Cities, association de skate, souhaite acgtualiser la page de son site en créant une nouvelle section sur leurs membres fondateurs et proposants deux plannings à télécharger. Ce projet était une première initiation qui nécessitait de développer du code html à partir d'un fichier déjà existant et un fichier de style CSS déjà en place"
+
 },
 {
 "id": 4,
@@ -38,7 +42,9 @@
 "skill" : ["Utiliser javascript pour avoir des fonctionnalités plus complexes sur son site"],
 "technologies": ["HTML","Javascript"],
 "website": "https://juliakardelice.github.io/Projet-5-Print-it/s",
-"githubLink": "https://github.com/JuliaKardelice/Ohmyfood.git"
+"githubLink": "https://github.com/JuliaKardelice/Ohmyfood.git",
+"plot" : "Riding Cities, association de skate, souhaite acgtualiser la page de son site en créant une nouvelle section sur leurs membres fondateurs et proposants deux plannings à télécharger. Ce projet était une première initiation qui nécessitait de développer du code html à partir d'un fichier déjà existant et un fichier de style CSS déjà en place"
+
 },
 {
 "id": 5,
@@ -49,7 +55,9 @@
 "Utiliser les APIrestfull pour effectuer des requètes serveur","Mettre en place des fonctionnalités d'ajout et de gestion de contenus (ajout de projet, upload d'images)"],
 "technologies": ["Node", "Javascript", "APIrest"],
 "website": "",
-"githubLink": "https://github.com/JuliaKardelice/Projet_6_openclassroom"
+"githubLink": "https://github.com/JuliaKardelice/Projet_6_openclassroom",
+"plot" : "Riding Cities, association de skate, souhaite acgtualiser la page de son site en créant une nouvelle section sur leurs membres fondateurs et proposants deux plannings à télécharger. Ce projet était une première initiation qui nécessitait de développer du code html à partir d'un fichier déjà existant et un fichier de style CSS déjà en place"
+
 },
 {
 "id": 6,
@@ -59,7 +67,9 @@
 "skill" : ["SEO", "Accessibilité"],
 "technologies": ["Lighthouse", "Wave","Debugger"],
 "website": "https://juliakardelice.github.io/Projet-8-Op--Nina-carducci/",
-"githubLink": "https://github.com/JuliaKardelice/Projet-8-Op--Nina-carducci"
+"githubLink": "https://github.com/JuliaKardelice/Projet-8-Op--Nina-carducci",
+"plot" : "Riding Cities, association de skate, souhaite acgtualiser la page de son site en créant une nouvelle section sur leurs membres fondateurs et proposants deux plannings à télécharger. Ce projet était une première initiation qui nécessitait de développer du code html à partir d'un fichier déjà existant et un fichier de style CSS déjà en place"
+
 },
 {
 "id": 7,
@@ -69,7 +79,9 @@
 "skill" : ["Gérer l'organisation de son travail via les méthodes de travail agiles","","",""],
 "technologies": ["React Dev Tools", "Lighthouse", "Wave"],
 "website": "",
-"githubLink": "https://github.com/JuliaKardelice/Op_debug.git"
+"githubLink": "https://github.com/JuliaKardelice/Op_debug.git",
+"plot" : "Riding Cities, association de skate, souhaite acgtualiser la page de son site en créant une nouvelle section sur leurs membres fondateurs et proposants deux plannings à télécharger. Ce projet était une première initiation qui nécessitait de développer du code html à partir d'un fichier déjà existant et un fichier de style CSS déjà en place"
+
 },
 {
 "id": 8,
@@ -78,7 +90,9 @@
 "image": "/assets/images/argent-bank.png",
 "technologies": ["React","Redux","Axios","Node", "Express", "MongoDB","Swagger"],
 "website": "",
-"githubLink": "https://github.com/JuliaKardelice/P10-argent-bank"
+"githubLink": "https://github.com/JuliaKardelice/P10-argent-bank",
+"plot" : "Riding Cities, association de skate, souhaite acgtualiser la page de son site en créant une nouvelle section sur leurs membres fondateurs et proposants deux plannings à télécharger. Ce projet était une première initiation qui nécessitait de développer du code html à partir d'un fichier déjà existant et un fichier de style CSS déjà en place"
+
 },
 {
 "id": 9,
@@ -88,6 +102,8 @@
 "skill" : ["Gérer l'organisation de son travail via les méthodes de travail agiles","","",""],
 "technologies": ["Kanban", "Feedly"],
 "website": "",
-"githubLink": ""
+"githubLink": "",
+"plot" : "Riding Cities, association de skate, souhaite acgtualiser la page de son site en créant une nouvelle section sur leurs membres fondateurs et proposants deux plannings à télécharger. Ce projet était une première initiation qui nécessitait de développer du code html à partir d'un fichier déjà existant et un fichier de style CSS déjà en place"
+
 }
 ]

@@ -1,9 +1,10 @@
 // About.tsx
-import React from "react";
 import portrait from "../../../public/assets/images/self_picture.jpg";
 import "./ProfileSection.scss";
 
-export const ProfileSection: React.FC = () => {
+type ProfileSectionProps = {};
+
+export const ProfileSection = ({}: ProfileSectionProps) => {
   return (
     <section className="about-section">
       <div className="introduction">
@@ -16,22 +17,25 @@ export const ProfileSection: React.FC = () => {
         </figure>
         <article>
           <h1>Développeuse Front-End</h1>
-          <p>
-            Je m'appelle <strong>Julia Royer</strong>, développeuse front-end en
-            devenir, fraîchement diplômée du parcours Intégrateur / Développeur
-            web sur OpenClassrooms (mai 2025). Curieuse et touche-à-tout, je
-            navigue entre code, dessin, musique assistée par ordinateur et
-            biologie — avec toujours la même envie : comprendre comment les
-            choses fonctionnent.
-          </p>
-          <p>
-            Ma formation m’a permis d’acquérir de solides bases en HTML, CSS,
-            JavaScript et React. Aujourd’hui, je souhaite approfondir mes
-            compétences en développement front, tout en élargissant mes horizons
-            du côté serveur. Les bases de données, les API, les nouveaux
-            langages de programmation. Je suis impatiente de m’y plonger pour
-            bâtir des applications complètes.
-          </p>
+          <div className="about-me">
+            <p>
+              Je m'appelle <strong>Julia Royer</strong>, développeuse front-end
+              en devenir, fraîchement diplômée du parcours Intégrateur /
+              Développeur web sur OpenClassrooms (mai 2025).
+              <br /> Curieuse et touche-à-tout, je navigue entre code, dessin,
+              musique assistée par ordinateur et biologie — avec toujours la
+              même envie : comprendre comment les choses fonctionnent.
+            </p>
+            <p>
+              Ma formation m’a permis d’acquérir de solides bases en HTML, CSS,
+              JavaScript et React. Aujourd’hui, je souhaite approfondir mes
+              compétences en développement front, tout en élargissant mes
+              horizons du côté serveur. Les bases de données, les API, les
+              nouveaux langages de programmation.
+              <br /> Je suis impatiente de m’y plonger pour bâtir des
+              applications complètes.
+            </p>
+          </div>
         </article>
       </div>
 

@@ -1,3 +1,5 @@
+import { faUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import projectsData from "../../data/projects.json";
 import "./ProjectsList.scss";
@@ -11,6 +13,7 @@ interface Project {
   githubLink: string;
   website?: string;
   skill?: string[];
+  plot?: string;
 }
 
 const ProjectsList: React.FC = () => {
@@ -74,7 +77,8 @@ const ProjectsList: React.FC = () => {
                 className="project-card__details-button"
                 onClick={() => handleOpenModal(project)}
               >
-                Pour plus de détails →
+                Pour plus de détails{" "}
+                <FontAwesomeIcon icon={faUpRightFromSquare} />
               </button>
             </div>
           </div>
@@ -94,40 +98,47 @@ const ProjectsList: React.FC = () => {
               className="modal-image"
             />
             <h3>{selectedProject.title}</h3>
-            <p className="modal-description">{selectedProject.description}</p>
+            <div className="modal-text">
+              {/**  <p className="modal-description">{selectedProject.description}</p> */}
 
-            {selectedProject.technologies.length > 0 && (
-              <>
-                <h4>Technologies utilisées :</h4>
-                <ul className="modal-tech-list">
-                  {selectedProject.technologies.map((tech, index) => (
-                    <li key={index}>{tech}</li>
-                  ))}
-                </ul>
-              </>
-            )}
+              <p className="modal-plot"> {selectedProject.plot}</p>
+              {selectedProject.technologies.length > 0 && (
+                <>
+                  <h4>Technologies utilisées :</h4>
+                  <ul className="modal-tech-list">
+                    {selectedProject.technologies.map((tech, index) => (
+                      <li key={index}>{tech}</li>
+                    ))}
+                  </ul>
+                </>
+              )}
 
-            {selectedProject.skill && selectedProject.skill.length > 0 && (
-              <>
-                <h4>Compétences mobilisées :</h4>
-                <ul className="modal-skill-list">
-                  {selectedProject.skill.map((skill, index) => (
-                    <li key={index}>{skill}</li>
-                  ))}
-                </ul>
-              </>
-            )}
+              {selectedProject.skill && selectedProject.skill.length > 0 && (
+                <>
+                  <h4>
+                    {" "}
+                    Voici ce que ce projet m'a permet d'explorer commme
+                    compétences :{" "}
+                  </h4>
+                  <ul className="modal-skill-list">
+                    {selectedProject.skill.map((skill, index) => (
+                      <li key={index}>{skill}</li>
+                    ))}
+                  </ul>
+                </>
+              )}
 
-            {selectedProject.website && (
-              <a
-                href={selectedProject.website}
-                className="modal-link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Visiter le site
-              </a>
-            )}
+              {selectedProject.website && (
+                <a
+                  href={selectedProject.website}
+                  className="modal-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visiter le site
+                </a>
+              )}
+            </div>
           </div>
         </div>
       )}

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Contact.scss";
+import { ModalContact } from "./ModalContact";
 
 interface FormData {
   name: string;
@@ -14,6 +15,8 @@ export const Contact: React.FC = () => {
     message: ""
   });
 
+  const [showModal, setShowModal] = useState(false);
+
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
@@ -24,8 +27,13 @@ export const Contact: React.FC = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log("Formulaire soumis :", formData);
-    alert("Merci pour votre message !");
+
+    setShowModal(true);
     // Ici tu pourrais faire un fetch vers une API ou utiliser EmailJS par exemple.
+  };
+
+  const handleCloseModal = () => {
+    setShowModal(false);
   };
 
   return (
@@ -66,6 +74,8 @@ export const Contact: React.FC = () => {
           <button type="submit">Envoyer</button>
         </form>
       </section>
+
+      {showModal && <ModalContact onClose={handleCloseModal} />}
     </main>
   );
 };
