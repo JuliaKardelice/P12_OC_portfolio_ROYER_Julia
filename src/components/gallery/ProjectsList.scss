@@ -1,4 +1,9 @@
 /* ProjectCard.scss */
+
+body {
+  overflow-x: hidden;
+}
+
 #projects h2 {
   text-align: center;
 }
@@ -248,5 +253,50 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+// Intégrer Responsive
+// Responsive tablets
+@media (max-width: 768px) {
+  .modal-content {
+    width: 80%;
+    max-width: 400px;
+    padding: 1.5rem;
+  }
+
+  .modal-description,
+  .modal-tech-list,
+  .modal-skill-list {
+    font-size: 0.9rem;
+  }
+
+  .modal-plot {
+    font-size: 0.95rem;
+  }
+}
+
+// Responsive mobile
+@media (max-width: 480px) {
+  .modal-content {
+    width: 80%;
+    max-width: 300px;
+    padding: 1.5rem;
+
+  }
+
+  .modal-description,
+  .modal-tech-list,
+  .modal-skill-list {
+    font-size: 0.85rem;
+  }
+
+  .modal-plot {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .modal-text {
+    padding: 0 0.5rem;
   }
 }

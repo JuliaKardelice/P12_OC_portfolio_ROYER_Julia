@@ -85,6 +85,49 @@
             }
         }
     }
+
+}
+
+#goals ul li {
+
+
+
+    transition: transform 0.5s ease, box-shadow 0.4s ease;
+
+    &:hover {
+        color: #0a2f47;
+        transform: scale(1.05);
+        background-color: initial;
+        font-weight: bolder;
+        /* Légère croissance */
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.542);
+        /* Ombre plus intense */
+        z-index: 1;
+        opacity: 0.7;
+        /* S’assure que la carte est au-dessus des voisines */
+    }
+
+}
+
+#strengths ul li {
+
+
+
+    transition: transform 0.5s ease, box-shadow 0.4s ease;
+
+    &:hover {
+        color: #0a2f47;
+        transform: scale(1.03);
+        background-color: initial;
+        font-weight: bolder;
+        /* Légère croissance */
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.542);
+        /* Ombre plus intense */
+        z-index: 1;
+        opacity: 0.7;
+        /* S’assure que la carte est au-dessus des voisines */
+    }
+
 }
 
 // Responsive
