@@ -5,7 +5,7 @@
 "title": "Riding Cities",
 "description": "Réalisation d’un site de voyage.",
 "image": "/assets/images/ridding-cities.png",
-"skill" : ["Organiser correctement sa page web selon les bonnes pratiques html","","",""],
+"skill" : ["Organiser correctement sa page web selon les bonnes pratiques html","Mettre en lien les balises html avec les classes CSS"],
 "technologies": ["HTML", "CSS"],
 "website": "https://juliakardelice.github.io/Ridding-Cities/",
 "githubLink":" https://github.com/JuliaKardelice/Ridding-Cities.git",
@@ -31,7 +31,7 @@
 "technologies": ["CSS", "SASS"],
 "website": "https://juliakardelice.github.io/Ohmyfood/",
 "githubLink": "https://github.com/JuliaKardelice/Ohmyfood.git",
-"plot" : "Riding Cities, association de skate, souhaite acgtualiser la page de son site en créant une nouvelle section sur leurs membres fondateurs et proposants deux plannings à télécharger. Ce projet était une première initiation qui nécessitait de développer du code html à partir d'un fichier déjà existant et un fichier de style CSS déjà en place"
+"plot" : " Réaliser une application mobile, avec plusieurs pages comprennant des animations. Lors de ce projet, le style est géré avec SASS et il fallait réaliser des animations, ce qui permet de rendre un site plus attrayant. "
 
 },
 {
@@ -43,13 +43,13 @@
 "technologies": ["HTML","Javascript"],
 "website": "https://juliakardelice.github.io/Projet-5-Print-it/s",
 "githubLink": "https://github.com/JuliaKardelice/Ohmyfood.git",
-"plot" : "Riding Cities, association de skate, souhaite acgtualiser la page de son site en créant une nouvelle section sur leurs membres fondateurs et proposants deux plannings à télécharger. Ce projet était une première initiation qui nécessitait de développer du code html à partir d'un fichier déjà existant et un fichier de style CSS déjà en place"
+"plot" : "Ce projet était une première initiation au langage javascript, et de réaliser un carroussel"
 
 },
 {
 "id": 5,
 "title": "Sophie Bluel Portfolio",
-"description": "Création du backend d'un site de notation de livres et gestion de la base de données",
+"description": "Créer une page dynamique avec javascript.",
 "image":"/assets/images/sophie_bluel.png",
 "skill" : ["Concevoir une application en intégrant des fonctionnalités plus complexes avec Javascript","Mettre en place un système de connexion d'utilisateur pour son site Web","Intégrer le backend de son site web ",
 "Utiliser les APIrestfull pour effectuer des requètes serveur","Mettre en place des fonctionnalités d'ajout et de gestion de contenus (ajout de projet, upload d'images)"],
@@ -60,6 +60,17 @@
 
 },
 {
+"id": 9,
+"title": "KASA",
+"description": "Planifiez le développement du site en se familarisant avec les methodes de travail agiles",
+"image": "/assets/images/ridding-cities.png",
+"skill" : ["Gérer l'organisation de son travail via les méthodes de travail agiles","Mettre en place un système de veille","Utiliser un Kanban avec des Users Stories"],
+"technologies": ["REACT"],
+"website": "",
+"githubLink": "",
+"plot" : "Le site est cette fois-ci coder avec React. On y découvre les nombreux avantages par rapport au javascript /* */. Pour construire le projet, on le découpe en composant, avec notamment des composants fonctionnels. La réalisation de ce projet permets de maitriser les notionfs clefs de react : props, état, hooks, react router."
+},
+{
 "id": 6,
 "title": "Portfolio de Nina Carducci",
 "description": "Augmenter l'accessibilité et les performances d'un site de photographie",
@@ -68,7 +79,7 @@
 "technologies": ["Lighthouse", "Wave","Debugger"],
 "website": "https://juliakardelice.github.io/Projet-8-Op--Nina-carducci/",
 "githubLink": "https://github.com/JuliaKardelice/Projet-8-Op--Nina-carducci",
-"plot" : "Riding Cities, association de skate, souhaite acgtualiser la page de son site en créant une nouvelle section sur leurs membres fondateurs et proposants deux plannings à télécharger. Ce projet était une première initiation qui nécessitait de développer du code html à partir d'un fichier déjà existant et un fichier de style CSS déjà en place"
+"plot" : "Une cliente possède un portfolio, déjà complet, mais celui ci comprends des erreurs, et elle souhaite améliorer le SEO pour rendre son site plus accessible dans les moteurs de recherche. Ici il fallait veiller à la bonne utilisation des balises html, qui utilisées correctement, mettent les éléments cléfs en avant (h1, h2, etc..). Enfin rendre le site plus accessible en intégrant des métadonnées. "
 
 },
 {
@@ -80,7 +91,7 @@
 "technologies": ["React Dev Tools", "Lighthouse", "Wave"],
 "website": "",
 "githubLink": "https://github.com/JuliaKardelice/Op_debug.git",
-"plot" : "724events est un site d'agence évennementielle, cependant le site comporte quelques bug. Le but de se projet est de résoudre ces bugs en utilisant notamment des tests unitaires."
+"plot" : "724events est un site d'agence évennementielle, cependant le site comporte quelques bugs. Le but de se projet est de résoudre ces bugs en utilisant notamment des tests unitaires."
 
 },
 {
@@ -91,8 +102,7 @@
 "technologies": ["React","Redux","Axios","Node", "Express", "MongoDB","Swagger"],
 "website": "",
 "githubLink": "https://github.com/JuliaKardelice/P10-argent-bank",
-"plot" : "Riding Cities, association de skate, souhaite acgtualiser la page de son site en créant une nouvelle section sur leurs membres fondateurs et proposants deux plannings à télécharger. Ce projet était une première initiation qui nécessitait de développer du code html à partir d'un fichier déjà existant et un fichier de style CSS déjà en place"
-
+"plot" : "Il s'agissait ici de concevoir une application bancaire. Cette application comprennait des fonctionnalités de mise à jour de l'état global, en utilisant Redux (en plus de React). Le projet comprennait un back-end, et impliquait de maitriser les notions clefs de redux (store, réducers, selector, action, dispatch)... Un des autre axe du projet était de réfléchir à la manière d'intégrer de nouvelles fonctionnalité dans l'API (modifier des transactions bancaires, en ajouter, etc..), et pour cela de réaliser un swagger réaliser un swagger"
 },
 {
 "id": 9,
@@ -103,7 +113,8 @@
 "technologies": ["Kanban", "Feedly"],
 "website": "",
 "githubLink": "",
-"plot" : "Riding Cities, association de skate, souhaite acgtualiser la page de son site en créant une nouvelle section sur leurs membres fondateurs et proposants deux plannings à télécharger. Ce projet était une première initiation qui nécessitait de développer du code html à partir d'un fichier déjà existant et un fichier de style CSS déjà en place"
+"plot" : "L'objectif de ce projet était de gérer la planification d'un projet : le developpement d'une appli de conception de menu pour les restaurateurs. Sur ce projet il n'y avait pas de site à coder, l'objectif est de savoir comment planifier un projet, notamment grâce aux méthodes agiles (Kanban, Scrum). Il fallait aussi à partir des spéficications fonctionelles du sites et des besoins de l'utilisateur, réfléchir aux spécifications techniques (langage utilisé, frameworks, etc... L'ensemble devait être présenté dans une diaporamo pour se famliariser avec la présentation orale dans un cadre professionel"
 
 }
+
 ]
