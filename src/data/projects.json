@@ -68,7 +68,7 @@
 "technologies": ["REACT"],
 "website": "",
 "githubLink": "",
-"plot" : "Le site est cette fois-ci coder avec React. On y découvre les nombreux avantages par rapport au javascript /* */. Pour construire le projet, on le découpe en composant, avec notamment des composants fonctionnels. La réalisation de ce projet permets de maitriser les notionfs clefs de react : props, état, hooks, react router."
+"plot" : "Le site doit être fois ci coder en utilisant React. On y découvre les nombreux avantages par rapport au javascript /* */. Pour construire le projet, on le découpe en composant, avec notamment des composants fonctionnels. La réalisation de ce projet permets de maitriser les notionfs clefs de react : props, état, hooks, react router."
 },
 {
 "id": 6,
