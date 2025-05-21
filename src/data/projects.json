@@ -60,7 +60,7 @@
 
 },
 {
-"id": 9,
+"id": 6,
 "title": "KASA",
 "description": "Planifiez le développement du site en se familarisant avec les methodes de travail agiles",
 "image": "/assets/images/ridding-cities.png",
@@ -71,7 +71,7 @@
 "plot" : "Le site doit être fois ci coder en utilisant React. On y découvre les nombreux avantages par rapport au javascript /* */. Pour construire le projet, on le découpe en composant, avec notamment des composants fonctionnels. La réalisation de ce projet permets de maitriser les notionfs clefs de react : props, état, hooks, react router."
 },
 {
-"id": 6,
+"id": 7,
 "title": "Portfolio de Nina Carducci",
 "description": "Augmenter l'accessibilité et les performances d'un site de photographie",
 "image": "/assets/images/nina_carducci.png",
@@ -83,7 +83,7 @@
 
 },
 {
-"id": 7,
+"id": 8,
 "title": "724events",
 "description": "Debbuger le site d'une agence événementielle",
 "image": "/assets/images/724events.png",
@@ -95,7 +95,7 @@
 
 },
 {
-"id": 8,
+"id": 9,
 "title": "Argent Bank",
 "description": "Création d'une application web bancaire en utilisant REACT/REDUX",
 "image": "/assets/images/argent-bank.png",
@@ -105,7 +105,7 @@
 "plot" : "Il s'agissait ici de concevoir une application bancaire. Cette application comprennait des fonctionnalités de mise à jour de l'état global, en utilisant Redux (en plus de React). Le projet comprennait un back-end, et impliquait de maitriser les notions clefs de redux (store, réducers, selector, action, dispatch)... Un des autre axe du projet était de réfléchir à la manière d'intégrer de nouvelles fonctionnalité dans l'API (modifier des transactions bancaires, en ajouter, etc..), et pour cela de réaliser un swagger réaliser un swagger"
 },
 {
-"id": 9,
+"id": 10,
 "title": "Menu Maker by Qwenta",
 "description": "Planifiez le développement du site en se familarisant avec les methodes de travail agiles",
 "image": "/assets/images/ridding-cities.png",
