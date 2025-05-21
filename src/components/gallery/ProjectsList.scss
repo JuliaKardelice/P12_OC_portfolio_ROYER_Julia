@@ -166,7 +166,10 @@ body {
 }
 
 .modal-content {
-  all: unset; // ← Petit joker pour écraser les mauvaises surprises
+  all: unset;
+  max-height: 90vh;
+  overflow-y: auto;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
